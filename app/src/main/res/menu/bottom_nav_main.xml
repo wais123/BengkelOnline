@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mozaik.beskem.ui.MainActivity">
+    <item
+        android:id="@+id/navigation_antrian"
+        android:icon="@drawable/ic_supervisor"
+        android:title="Antrian"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/navigation_service"
+        android:icon="@drawable/ic_build"
+        android:title="Service"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/navigation_sparepart"
+        android:icon="@drawable/ic_motorcycle"
+        android:title="Sparepart"
+        app:showAsAction="never" />
+</menu>

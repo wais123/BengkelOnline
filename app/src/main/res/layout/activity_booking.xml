@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".booking_fragment.BookingFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext"
+            android:hint="@string/hint_name"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/et_stnk"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext"
+            android:hint="@string/hint_stnk"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="@color/grey" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/tune_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/colorAccent"
+                android:text="Tune Up"
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/ganti_oli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/colorAccent"
+                android:text="Ganti Oli"
+                android:textColor="@color/grey" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <EditText
+            android:id="@+id/et_keluhan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext"
+            android:hint="@string/hint_keluhan"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="@color/grey" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button1"
+            android:text="Submit" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:visibility="gone"
+        android:indeterminateTint="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

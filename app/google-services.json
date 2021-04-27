@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "773124051025",
+    "firebase_url": "https://bengkelonline-58cd6.firebaseio.com",
+    "project_id": "bengkelonline-58cd6",
+    "storage_bucket": "bengkelonline-58cd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773124051025:android:96f71ffd70c5cbe2522870",
+        "android_client_info": {
+          "package_name": "com.idetree.bemonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773124051025-69tp3piahbp50g0t3vs5abffdriv9g2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.idetree.bemonline",
+            "certificate_hash": "de9d8b59ee84d9280f5feec82f40fd21cd249731"
+          }
+        },
+        {
+          "client_id": "773124051025-vvsbi31p0gfkk2u5smch7f511q0n1fif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEyWDpaIOOE4OyeaWRMrXfKG8shvgqZIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773124051025-vvsbi31p0gfkk2u5smch7f511q0n1fif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

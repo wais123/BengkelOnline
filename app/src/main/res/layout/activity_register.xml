@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".register.RegisterActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/picturetopeople2" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/et_nik"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_et"
+            android:hint="NIK"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_et"
+            android:hint="NO. HANDPHONE"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_et"
+            android:hint="EMAIL"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_et"
+            android:hint="KATA SANDI"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_et"
+            android:hint="KETIK ULANG KATA SANDI"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button1"
+            android:text="DAFTAR" />
+    </RelativeLayout>
+
+</LinearLayout>

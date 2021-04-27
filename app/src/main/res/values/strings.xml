@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">bemonline</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_name"><font size="15">Product Name</font></string>
+    <string name="hint_stnk"><font size="15">Product Quantity</font></string>
+    <string name="hint_keluhan"><font size="15">Product Description</font></string>
+</resources>

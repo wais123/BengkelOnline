@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_antrian"
+        android:icon="@drawable/ic_supervisor"
+        android:title="Daftar Booking"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/navigation_sparepart"
+        android:icon="@drawable/ic_motorcycle"
+        android:title="Sparepart"
+        app:showAsAction="never" />
+</menu>
